@@ -31,4 +31,4 @@ end
  end 
 end  
 
-cr1 = CashRegister.new
+cr1 = CashRegister.authenticate_or_request_with_http_digestcr
