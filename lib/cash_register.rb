@@ -27,6 +27,6 @@ end
   end 
    
    def void last_transaction
-    @total -= @transactions
+    @total -= @transactions.pop
  end 
 end  
