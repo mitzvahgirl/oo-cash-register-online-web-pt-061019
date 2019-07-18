@@ -32,4 +32,4 @@ end
 end  
 
 cr1 = CashRegister.new
-cr1 = 
+cr1.add_item 
