@@ -24,11 +24,12 @@ end
     self.total -= self.total * (self.discount/100.0)
     "After the discount, the total comes to $#{@total.to_i}."
   else 
-    "There is no discount to apply."
+    return "There is no discount to apply."
    end
   end 
    
    def void last_transaction
     @total -= @transactions.pop
  end 
+ 
 end  
