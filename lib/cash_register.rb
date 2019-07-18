@@ -30,3 +30,5 @@ end
     @total -= @transactions.pop
  end 
 end  
+
+cr1
