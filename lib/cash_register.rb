@@ -31,4 +31,4 @@ end
  end 
 end  
 
-cr1
+cr1 = CashRegister.new
