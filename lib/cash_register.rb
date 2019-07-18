@@ -22,6 +22,7 @@ end
   else 
     "There is no discount to apply."
    end
+  end 
    
    def void last_transaction
     @total -= @last_transaction
